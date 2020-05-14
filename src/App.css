@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.title-block {
+  background-color: gray;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-block h1 {
+  font-size: 3rem;
+}
