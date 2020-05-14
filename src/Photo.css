@@ -1,4 +1,5 @@
 .photo-list img {
   height: 120px;
   border-radius: 5px;
+  border: 1px solid white;
 }

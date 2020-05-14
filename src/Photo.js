@@ -2,5 +2,11 @@ import React from 'react';
 import './Photo.css';
 
 export default function Photo(props) {
-  return <img src={props.imgSrc} alt={props.date} />;
+  const { setAPOD } = props;
+
+  const clickHandler = (event) => {
+    setAPOD(props.index);
+  };
+
+  return <img src={props.imgSrc} alt={props.date} onClick={clickHandler} />;
 }

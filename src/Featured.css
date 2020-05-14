@@ -26,6 +26,8 @@
 .APOD-titles h2 {
   font-size: 2rem;
   padding: 2% 0;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 1px;
 }
 
 .APOD-titles h3 {

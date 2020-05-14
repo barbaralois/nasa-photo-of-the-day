@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto&display=swap');
+
 .App {
   text-align: center;
 }
@@ -38,13 +40,18 @@
 }
 
 .title-block {
-  background-color: gray;
-  height: 10vh;
+  background-color: midnightblue;
+  padding: 1.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 3px solid white;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .title-block h1 {
   font-size: 3rem;
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Fredoka One', cursive;
 }
