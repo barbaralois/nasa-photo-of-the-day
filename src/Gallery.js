@@ -1,10 +1,10 @@
 import React from 'react';
 import Photo from './Photo';
-import './Gallery.css';
+import { GalleryContainer } from './styled-components';
 
 export default function Gallery(props) {
   return (
-    <div className="photo-list">
+    <GalleryContainer className="photo-list">
       {props.apodData.map((photo, index) => {
         return (
           <Photo
@@ -16,6 +16,6 @@ export default function Gallery(props) {
           />
         );
       })}
-    </div>
+    </GalleryContainer>
   );
 }

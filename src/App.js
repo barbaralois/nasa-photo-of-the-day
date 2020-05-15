@@ -31,8 +31,8 @@ function App() {
       <div className="title-block">
         <h1>NASA's Astronomy Picture of the Day</h1>
       </div>
-      <Featured currentAPOD={currentAPOD} />
       <Gallery apodData={apodList} setAPOD={setAPOD} />
+      <Featured currentAPOD={currentAPOD} />
     </div>
   );
 }

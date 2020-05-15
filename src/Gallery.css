@@ -1,8 +1,0 @@
-.photo-list {
-  background-color: midnightblue;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1.2rem;
-  border: solid white 3px;
-  border-radius: 0px 0px 15px 15px;
-}
