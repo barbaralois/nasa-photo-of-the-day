@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<img
+  className="sc-AxirZ fXuOHl"
+  onClick={[Function]}
+/>
+`;
+
+exports[`renders correctly with props 1`] = `
+<img
+  alt="5-15"
+  className="sc-AxirZ fXuOHl"
+  onClick={[Function]}
+  src="www.google.com"
+/>
+`;
